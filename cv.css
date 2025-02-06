@@ -1,0 +1,100 @@
+.block-header{
+    background-color: #343f51;
+    justify-items: center;
+    
+}
+.profil{
+    margin-top: 20px;
+    width:200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100px;
+}
+.contact-info  {
+    color: white;
+    display: flex;
+    gap: 100px;
+}
+.contact-info a{
+    text-decoration: none;
+    color: white;
+}
+.nom{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profession{
+    color: white;
+    font-size: 15px;
+}
+.localisation{
+    display: flex;
+    gap: 20px;
+}
+.telephone{
+    display: flex;
+    gap: 20px;
+}
+.mail{
+    display: flex;
+    gap: 20px;
+}
+.img1{
+    padding-top: 15px;
+}
+.img2{
+    padding-top: 15px;
+}
+.img3{
+    padding-top: 15px;
+}
+
+.block-content {
+    display: flex;
+}
+.block-gauche{
+    color: #414d59;
+    font-size: 16px;
+    text-align: center;
+    /* float: left; */
+    /* justify-items: center; */
+    width: 33%;
+    height: 960px;
+    background-color: #d5dce6;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    word-spacing: 7px;
+}
+.block-gauche h2{
+    color: #414d59;
+}
+
+.block-droite{
+    color: #414d59;
+    /* float: right; */
+    padding: 20px 80px 20px 40px;
+    /* padding-top: 20px;
+    padding-right: 80px; */
+    height: 960px;
+    
+    
+    
+}
+.block-droite ul li{
+    position: relative;
+    left: -20px;
+}
+.competences{
+    position: relative;
+    top: 25px;
+}
+.basket{
+    display: flex;
+}
+.football{
+    display: flex;
+}
+
+
